@@ -1,10 +1,10 @@
 // Дана строка 'JS'. Сделайте из нее строку 'js'.
 
 let text = 'JS';
-let LowerText = text.toLowerCase();
-document.write((text) + "<br>" + (LowerText));
+let lowerText = text.toLowerCase();
+document.write((text) + "<br>" + (lowerText));
 console.log(text);
-console.log(LowerText);
+console.log(lowerText);
 
 // Variant 2
 // let text = 'JS';
