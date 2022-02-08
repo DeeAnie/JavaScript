@@ -4,10 +4,3 @@
 // let userCardNumber = prompt("Номер вашей карты?");
 // console.log("Номер вашей карты: " + userCardNumber.replace(/\d(?=\d{4})/g, "*"));
 // document.write("Номер вашей карты: " + userCardNumber.replace(/\d(?=\d{4})/g, "*"));
-
-
-let name = "Altynbek Kasymov",
-  mail = "altynbek.kasymov.sss@gmail.com";
-document.write(
-  `3. Hello world! My name is ${name} and my e'mail is ${mail} <br>`
-);
