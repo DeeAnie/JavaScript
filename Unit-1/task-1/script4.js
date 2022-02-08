@@ -4,7 +4,7 @@ const souvenirWeight = 75,
 let souvenirAmount = prompt("Cколько сувениров купили?"),
     baubleAmount = prompt("Cколько безделушек купили?");
 
-let sum = (souvenirWeight * souvenirAmount + baubleWeight * baubleAmount);
+let sum = ((souvenirWeight * souvenirAmount) + (baubleWeight * baubleAmount));
 let sumKg = sum / 1000;
 alert("Oбщий вес посылки " + sum + "г" + " или " + sumKg + "кг");
 document.write(`Oбщий вес посылки ${sum}г или ${sumKg}кг`);
